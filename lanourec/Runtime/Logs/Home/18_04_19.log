@@ -1,0 +1,269 @@
+[ 2018-04-19T09:00:14+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0041s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\2ee584f656771a7aea1508eb6f9cbceef5d64cfb.file.index.html.php E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\2ee584f656771a7aea1508eb6f9cbceef5d64cfb.file.index.html.php): No such file or directory E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\LanouRec\lanourec\Runtime\Cache\2ee584f656771a7aea1508eb6f9cbceef5d64cfb.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2018-04-19T09:00:35+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0030s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0044s ]
+SQL: select * from waste_price [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\0808b3fe02678d5c9ae0e05a3db3dd79e91f9615.file.fast_rec.html.php E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\0808b3fe02678d5c9ae0e05a3db3dd79e91f9615.file.fast_rec.html.php): No such file or directory E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2018-04-19T09:00:41+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004050s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0029s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\ad3d10f40205675725eb012365abe33f963dbbb9.file.waste_basket.html.php E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\ad3d10f40205675725eb012365abe33f963dbbb9.file.waste_basket.html.php): No such file or directory E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2018-04-19T09:00:43+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0099s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\LanouRec\lanourec\Runtime\Cache\2ee584f656771a7aea1508eb6f9cbceef5d64cfb.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2018-04-19T09:00:44+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0035s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0032s ]
+SQL: select * from waste_price [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2018-04-19T09:00:45+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0051s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-04-19T09:00:46+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0037s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0026s ]
+SQL: select * from waste_price [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2018-04-19T10:57:12+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\IndexController.class.php 第 9 行.
+SQL: select * from user_info where `openid` = '' [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2018-04-19T10:57:14+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\WasteController.class.php 第 48 行.
+SQL: select * from waste_basket where `openid` = '' and `state` = '0' [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2018-04-19T14:16:37+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\IndexController.class.php 第 9 行.
+SQL: select * from user_info where `openid` = '' [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2018-04-19T14:16:57+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/address_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\IndexController.class.php 第 117 行.
+SQL: select * from user_address where `openid` = '' order by produce_time desc [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\6673c27aa2b46267a7e50db6365857fdc48542e8.file.address_list.html.php E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/LanouRec/lanourec/Runtime/Cache\6673c27aa2b46267a7e50db6365857fdc48542e8.file.address_list.html.php): No such file or directory E:\AppServ\www\LanouRec\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2018-04-19T20:17:06+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014407s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\IndexController.class.php 第 9 行.
+SQL: select * from user_info where `openid` = '' [ RunTime:0.0312s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014452s ]
+
+[ 2018-04-19T21:07:08+08:00 ] ::1 /LanouRec/lanourec/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018965s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: openid E:\AppServ\www\LanouRec\lanourec\Home\Controller\IndexController.class.php 第 9 行.
+SQL: select * from user_info where `openid` = '' [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014432s ]
+

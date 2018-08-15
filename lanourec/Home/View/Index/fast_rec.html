@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>快速回收</title>
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+    <script type="text/javascript" src="{$smarty.const.JS_URL}/jquery-1.8.2.min.js"></script>
+</head>
+<style type="text/css">
+	.swipe li{
+		float: left;
+		width:20%;
+	}
+	.span_price{
+		line-height: 30px;
+		display: block;
+		text-align: center;
+	}
+	.coll_goods_img{
+		margin-left: 10px;
+	}
+	h3{
+		margin: 10px 0 10px 5%;
+	}
+</style>
+<body class="body_color">
+<div class="mall_main">
+    <div id="child_header">
+        <div class="goback" style="width: 45%;"><a href="javascript:history.back(-1)"><i></i></a></div>
+        <div class="current_location"><span>首页</span></div>
+    </div>
+<div id="container">
+	<div data-role="page">
+		<div data-role="content">
+			<h3 style="color: #65C257">废品分类</h3>
+			<ul data-role="listview" class="swipe">
+				{foreach $info as $key => $value}
+				<li>
+					<a href="{$smarty.const.__CONTROLLER__}/classify/index_rec/{$value.type_eg}">
+                        <div class="collect_goods">
+                            <div class="coll_goods_img"><img src="{$smarty.const.IMG_URL}/{$value.type_eg}.png"></div>
+                            <span class="span_price">{$value.type}</span>
+                        </div>
+					</a>
+				</li>
+				{/foreach}
+			</ul>
+			<h3 style="clear: both;padding-top: 50px;color: #65C257">不想分类？没关系，点击这里</h3>
+			<ul data-role="listview" class="swipe">
+				<li>
+					<a href="{$smarty.const.__CONTROLLER__}/fast_rec_sec/index_rec/other">
+                        <div class="collect_goods">
+                            <div class="coll_goods_img"><img src="{$smarty.const.IMG_URL}/other.png"></div>
+                            <span class="span_price">其它</span>
+                        </div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+	<a href="{$smarty.const.__SELF__}""><li>首页</li></a>
+	<a href="{$smarty.const.__MODULE__}/Waste/waste_basket"><li>废品筐</li></a>
+	<a href="{$smarty.const.__CONTROLLER__}/index"><li>我的</li></a>
+</ul>
+</body>
+</html>

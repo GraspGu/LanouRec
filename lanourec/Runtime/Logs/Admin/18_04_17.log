@@ -1,0 +1,620 @@
+[ 2018-04-17T20:54:32+08:00 ] ::1 /tp_test/shop/index.php/Admin/Manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\ab560938c16baa38b84efcffe595083a7b8935d7.file.login.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\ab560938c16baa38b84efcffe595083a7b8935d7.file.login.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2018-04-17T20:54:34+08:00 ] ::1 /tp_test/shop/index.php/Admin/Manager/VerifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-04-17T20:55:17+08:00 ] ::1 /tp_test/shop/index.php/Admin/Manager/VerifyImg/0.9938125029935572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-04-17T20:55:20+08:00 ] ::1 /tp_test/shop/index.php/Admin/Manager/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0057s ]
+SQL: select * from manager where `username` = 'admin' and `password` = 'password' [ RunTime:0.0037s ]
+
+[ 2018-04-17T20:55:21+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collector` LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_order` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\54715aac71f8d231ebd60da2b4ec5e454864c0b6.file.index.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\54715aac71f8d231ebd60da2b4ec5e454864c0b6.file.index.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2018-04-17T20:55:45+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1   [ RunTime:0.0067s ]
+SQL: select * from `user_info` order by produce_time desc Limit 0, 7 [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\d5b3db6ae35e6c0700f2d72e7f903ea808479fa4.file.user.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\d5b3db6ae35e6c0700f2d72e7f903ea808479fa4.file.user.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2018-04-17T20:56:09+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/search/action/user/id/1962d6f579cd709fe915d703285d503b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0027s ]
+SQL: select * from user_info where `user_id` = '1962d6f579cd709fe915d703285d503b' order by produce_time desc [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: value E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 186 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 186 行.
+NOTIC: [8] Undefined index: collData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 202 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 202 行.
+NOTIC: [8] Undefined index: orderData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 279 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 279 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.288779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.288862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2018-04-17T20:56:30+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/user/id/1962d6f579cd709fe915d703285d503b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\2d00c9761087ae5bbdea069c39e1027f3bf49ba8.file.modify.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\2d00c9761087ae5bbdea069c39e1027f3bf49ba8.file.modify.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2018-04-17T20:56:48+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/collector
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collector` LIMIT 1   [ RunTime:0.0027s ]
+SQL: select * from `collector` order by produce_time desc Limit 0, 7 [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\f78531c49df82b4c8ac60a90d52ad58251f0bb25.file.collector.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\f78531c49df82b4c8ac60a90d52ad58251f0bb25.file.collector.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2018-04-17T20:57:08+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/collector
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collector` LIMIT 1   [ RunTime:0.0024s ]
+SQL: select * from `collector` order by produce_time desc Limit 0, 7 [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001939s ]
+
+[ 2018-04-17T20:57:30+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/search/action/collector/id/270e2f3bb1dfd0ae9c3dcbfe6f5ed3b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0037s ]
+SQL: select * from `collector` where `collector_id` = '270e2f3bb1dfd0ae9c3dcbfe6f5ed3b9' order by produce_time [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: userData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 144 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 144 行.
+NOTIC: [8] Undefined index: value E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 248 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 248 行.
+NOTIC: [8] Undefined index: orderData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 279 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 279 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2018-04-17T20:58:05+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_order` LIMIT 1   [ RunTime:0.0085s ]
+SQL: select * from `t_order` order by produce_time desc Limit 0, 7 [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\e10d76bd024e1fd638082bab969e0911edb8484d.file.order.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\e10d76bd024e1fd638082bab969e0911edb8484d.file.order.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2018-04-17T20:58:21+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_order` LIMIT 1   [ RunTime:0.0022s ]
+SQL: select * from `t_order` order by produce_time desc Limit 0, 7 [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2018-04-17T20:58:35+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_order` LIMIT 1   [ RunTime:0.0036s ]
+SQL: select * from `t_order` order by produce_time desc Limit 0, 7 [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-04-17T20:58:52+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/search/action/order/id/c2c8e17c-4158-11e8-9d05-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0040s ]
+SQL: select * from `t_order` where `order_id` = 'c2c8e17c-4158-11e8-9d05-000c29508d38' order by produce_time [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: userData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 144 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 144 行.
+NOTIC: [8] Undefined index: collData E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 202 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 202 行.
+NOTIC: [8] Undefined index: finish E:\AppServ\www\tp_test\shop\Runtime\Cache\57a4355a61cceec41fa99fb6090f5a0284afdf0c.file.search.html.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003445s ]
+
+[ 2018-04-17T20:59:15+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0021s ]
+SQL: select * from `waste_price` order by price_time desc Limit 0, 7 [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2018-04-17T20:59:35+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/collector
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collector` LIMIT 1   [ RunTime:0.0057s ]
+SQL: select * from `collector` order by produce_time desc Limit 0, 7 [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002911s ]
+
+[ 2018-04-17T20:59:35+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/collector/id/77cd483a0cce7d0d5d7e449e03389a96
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+
+[ 2018-04-17T20:59:38+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/collector/id/270e2f3bb1dfd0ae9c3dcbfe6f5ed3b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+
+[ 2018-04-17T21:00:07+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/collector/id/270e2f3bb1dfd0ae9c3dcbfe6f5ed3b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2018-04-17T21:01:08+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0020s ]
+SQL: select * from `waste_price` order by price_time desc Limit 0, 7 [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2018-04-17T21:01:09+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/id/d3fe7da5-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 329 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 330 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 331 行.
+ERR: 1146:Table 'LanouRec.wasteType' doesn't exist
+ [ SQL语句 ] : update wasteType set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'd3fe7da5-330c-11e8-a3fe-000c29508d38'
+ERR: 1146:Table 'LanouRec.wasteType' doesn't exist
+ [ SQL语句 ] : update wasteType set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'd3fe7da5-330c-11e8-a3fe-000c29508d38'
+
+[ 2018-04-17T21:01:16+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/id/ed54e960-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 329 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 330 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 331 行.
+ERR: 1146:Table 'LanouRec.wasteType' doesn't exist
+ [ SQL语句 ] : update wasteType set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+ERR: 1146:Table 'LanouRec.wasteType' doesn't exist
+ [ SQL语句 ] : update wasteType set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+
+[ 2018-04-17T21:01:38+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/id/ed54e960-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 329 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 330 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 331 行.
+ERR: 1054:Unknown column 'unit_price' in 'field list'
+ [ SQL语句 ] : update waste_price set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+ERR: 1054:Unknown column 'unit_price' in 'field list'
+ [ SQL语句 ] : update waste_price set `type` = '',`type_eg` = '',`unit_price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+
+[ 2018-04-17T21:02:01+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/id/ed54e960-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 329 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 330 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 331 行.
+ERR: 1366:Incorrect decimal value: '' for column 'price' at row 2
+ [ SQL语句 ] : update waste_price set `type` = '',`type_eg` = '',`price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+ERR: 1366:Incorrect decimal value: '' for column 'price' at row 2
+ [ SQL语句 ] : update waste_price set `type` = '',`type_eg` = '',`price` = '' where `waste_id` = 'ed54e960-330c-11e8-a3fe-000c29508d38'
+
+[ 2018-04-17T21:04:36+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0026s ]
+SQL: select * from `waste_price` order by price_time desc Limit 0, 7 [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2018-04-17T21:04:37+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/id/d3fe7da5-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 341 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: waste_id E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 346 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+
+[ 2018-04-17T21:06:03+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0021s ]
+SQL: select * from `waste_price` order by price_time desc Limit 0, 7 [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003570s ]
+
+[ 2018-04-17T21:06:04+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/wid/d3fe7da5-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 341 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: waste_id E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 346 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+
+[ 2018-04-17T21:07:23+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType/wid/d3fe7da5-330c-11e8-a3fe-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id E:\AppServ\www\tp_test\shop\Runtime\Cache\2d00c9761087ae5bbdea069c39e1027f3bf49ba8.file.modify.html.php 第 223 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2018-04-17T21:07:45+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `waste_price` LIMIT 1   [ RunTime:0.0024s ]
+SQL: select * from `waste_price` order by price_time desc Limit 0, 7 [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+NOTIC: [8] Undefined index: collector_id E:\AppServ\www\tp_test\shop\Runtime\Cache\2c85aee844fadee587b76173172c6ea396b59074.file.wasteType.html.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001799s ]
+
+[ 2018-04-17T21:07:47+08:00 ] ::1 /tp_test/shop/index.php/Admin/Index/modify/action/wasteType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: waste_type E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 341 行.
+NOTIC: [8] Undefined index: type_eg E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined index: unit_price E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined variable: waste_id E:\AppServ\www\tp_test\shop\Admin\Controller\IndexController.class.php 第 346 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where `waste_id` = ''' at line 1
+ [ SQL语句 ] : insert into wasteType(`type`,`type_eg`,`unit_price`) values('','','') where `waste_id` = ''
+

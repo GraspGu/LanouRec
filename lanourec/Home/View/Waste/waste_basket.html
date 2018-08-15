@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>废品筐</title>
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+    <script type="text/javascript" src="{$smarty.const.JS_URL}/jquery-1.10.0.min.js"></script>
+</head>
+<body class="body_color">
+<div class="mall_main">
+    <div id="child_header">
+        <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+        <div class="current_location"><span>废品筐</span></div>
+    </div>
+<div id="container">
+    {if !$info}
+    <h3 style="text-align: center;margin-top: 50px;">您的废品筐空空如也</h3>
+    {/if}
+	<div data-role="page">
+		<div data-role="content">
+			<ul data-role="listview" class="swipe">
+				{foreach $info as $key => $value}
+					<li>
+	                    <div class="collect_goods">
+	                        <div class="coll_goods_img"><img src="{$smarty.const.IMG_URL}/{$value.waste_type}.png"></div>
+	                        <p>{$type_cn[$key]['0']['type']}<a class="basket_delete" href="{$smarty.const.__SELF__}/id/{$value.basket_id}"><span style="float:right;">删除</span></a></p>
+	                        <span class="span_price">￥{$value.waste_price}</span><span class="span_stock">{$value.waste_weight}kg</span>
+	                    </div>
+					</li>
+				{/foreach}
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<!-- 下一步 -->
+{if $info}
+<div id="next_wrap_contianer">
+    <a href="{$smarty.const.__MODULE__}/Order/address_choose">提交</a>
+</div>
+{/if}
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+    <a href="{$smarty.const.__MODULE__}/Index/fast_rec""><li>首页</li></a>
+    <a href="{$smarty.const.__SELF__}"><li>废品筐</li></a>
+    <a href="{$smarty.const.__MODULE__}/Index/index"><li>我的</li></a>
+</ul>
+{literal}
+<script type="text/javascript">
+$(function() {
+
+    function prevent_default(e) {
+        e.preventDefault();
+    }
+
+    function disable_scroll() {
+        $(document).on('touchmove', prevent_default);
+    }
+
+    function enable_scroll() {
+        $(document).unbind('touchmove', prevent_default)
+    }
+
+    var x;
+    $('.swipe-delete li > a')
+        .on('touchstart', function(e) {
+            console.log(e.originalEvent.pageX)
+            $('.swipe-delete li > a').css('left', '0px') // close em all
+            $(e.currentTarget).addClass('open')
+            x = e.originalEvent.targetTouches[0].pageX // anchor point
+        })
+        .on('touchmove', function(e) {
+            var change = e.originalEvent.targetTouches[0].pageX - x
+            change = Math.min(Math.max(-60, change), 0) // restrict to -60px left, 0px right
+            e.currentTarget.style.left = change + 'px'
+            if (change < -10) disable_scroll() // disable scroll once we hit 10px horizontal slide
+        })
+        .on('touchend', function(e) {
+            var left = parseInt(e.currentTarget.style.left)
+            var new_left;
+            if (left < -35) {
+                new_left = '-60px'
+            } else if (left > 35) {
+                new_left = '60px'
+            } else {
+                new_left = '0px'
+            }
+            // e.currentTarget.style.left = new_left
+            $(e.currentTarget).animate({left: new_left}, 200)
+            enable_scroll()
+        });
+
+});
+</script>
+{/literal}
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+<title>关于</title>
+</head>
+<body class="body_color">
+<div class="mall_main">
+<div id="child_header">
+    <div class="goback" style="width: 45%;"><a href="javascript:history.back(-1)"><i></i></a></div>
+    <div class="current_location"><span>关于</span></div>
+</div>
+    <div class="set_up">
+        <ul>
+            <li><a href="{$smarty.const.__CONTROLLER__}/team_introduce">团队介绍<i></i></a></li>
+            <li><a>帮助中心<span>000-0000-000</span></a></li>
+            <li><a>版本<span>V1.0.0</span></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+    <a href="{$smarty.const.__CONTROLLER__}/fast_rec"><li>首页</li></a>
+    <a href="{$smarty.const.__MODULE__}/Waste/waste_basket"><li>废品筐</li></a>
+    <a href="{$smarty.const.__CONTROLLER__}/index"><li>我的</li></a>
+</ul>
+</body>
+</html>

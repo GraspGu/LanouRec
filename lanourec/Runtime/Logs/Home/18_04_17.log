@@ -1,0 +1,1742 @@
+[ 2018-04-17T20:27:37+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2018-04-17T20:29:58+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0038s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2018-04-17T20:35:43+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0049s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2018-04-17T20:35:44+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0051s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0054s ]
+SQL: select * from waste_price [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\b62c90c3c5e442b1d5159f00f71ff715b1c35692.file.fast_rec.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\b62c90c3c5e442b1d5159f00f71ff715b1c35692.file.fast_rec.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2018-04-17T20:35:47+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec_sec/index_rec/other
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004469s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0094s ]
+SQL: select * from waste_price where `type_eg` = 'other' [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\b58018ccafa61614a12ed70735086df151e54efe.file.fast_rec_sec.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\b58018ccafa61614a12ed70735086df151e54efe.file.fast_rec_sec.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002173s ]
+
+[ 2018-04-17T20:35:52+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0031s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\67a5b6814adb33fd9807d8b626bceee3e7811d94.file.waste_basket.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\67a5b6814adb33fd9807d8b626bceee3e7811d94.file.waste_basket.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2018-04-17T20:35:55+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0033s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0036s ]
+SQL: select * from waste_price [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-04-17T20:35:56+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec_sec/index_rec/battery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0038s ]
+SQL: select * from waste_price where `type_eg` = 'battery' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2018-04-17T20:35:59+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket/waste_type/battery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0058s ]
+SQL: select * from waste_basket where `waste_type` = 'battery' and `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0058s ]
+SQL: insert into waste_basket(`basket_id`,`openid`,`waste_type`,`waste_weight`,`waste_price`,`state`,`produce_time`) values(UUID(),'oyOLfwd29fHNKgADHEPPDNLC4R2Y','battery','3','1.5','0',now()) [ RunTime:0.0050s ]
+
+[ 2018-04-17T20:36:00+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0037s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-04-17T20:36:28+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/address_choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002422s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0032s ]
+SQL: select * from user_address where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\0a2928440c1845dc3fe5f6f1b921b349f022e185.file.address_choose.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\0a2928440c1845dc3fe5f6f1b921b349f022e185.file.address_choose.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2018-04-17T20:37:06+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2018-04-17T20:37:33+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\9be9f6c9758574ab7c1d34017f72459b04137cf5.file.user_info.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\9be9f6c9758574ab7c1d34017f72459b04137cf5.file.user_info.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2018-04-17T20:37:57+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0032s ]
+SQL: select * from user_address where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' order by produce_time desc [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\0a4d84d39a54e099e749c60a4557cab6b79c05b6.file.address_list.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\0a4d84d39a54e099e749c60a4557cab6b79c05b6.file.address_list.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2018-04-17T20:38:25+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0074s ]
+SQL: select * from user_address where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\02cc5c74eaa0440117687d627f4c4b9345214296.file.address_add.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\02cc5c74eaa0440117687d627f4c4b9345214296.file.address_add.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2018-04-17T20:38:47+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_list?index=address_edit&id=%3C?php%20echo%20Tool::user_address_select()[$i][%27address_id%27]%20?%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+
+[ 2018-04-17T20:38:56+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_list?index=address_edit&id=%3C?php%20echo%20Tool::user_address_select()[$i][%27address_id%27]%20?%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003403s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0037s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+
+[ 2018-04-17T20:39:03+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_list?index=address_edit&id=%3C?php%20echo%20Tool::user_address_select()[$i][%27address_id%27]%20?%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0046s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id'] ?>'' at line 1
+ [ SQL语句 ] : delete from user_address where `address_id` = '<?php echo Tool::user_address_select()[$i]['address_id'] ?>'
+
+[ 2018-04-17T20:46:06+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0046s ]
+SQL: select * from user_address where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' order by produce_time desc [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2018-04-17T20:46:07+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_edit/id/9ee0fd38-4167-11e8-9d05-000c29508d38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0032s ]
+SQL: select * from user_address where `address_id` = '9ee0fd38-4167-11e8-9d05-000c29508d38' [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: id E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 57 行.
+NOTIC: [8] Undefined index: nickname E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 60 行.
+NOTIC: [8] Undefined index: nick_tel E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 69 行.
+NOTIC: [8] Undefined index: spe_add E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2018-04-17T20:46:07+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_edit/id/js/address.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0060s ]
+SQL: select * from user_address where `address_id` = 'js' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 57 行.
+NOTIC: [8] Undefined index: nickname E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 60 行.
+NOTIC: [8] Undefined index: nick_tel E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 69 行.
+NOTIC: [8] Undefined index: spe_add E:\AppServ\www\tp_test\shop\Runtime\Cache\ec487c9bf5c3531541f3199d54d130b72eb5a9bb.file.address_edit.html.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-04-17T20:46:45+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/address_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0033s ]
+SQL: select * from user_address where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-04-17T20:46:56+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0049s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2018-04-17T20:46:59+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/track
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0045s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\deef204bcb62a4b107cd545b7e45e3850758ea7b.file.track.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\deef204bcb62a4b107cd545b7e45e3850758ea7b.file.track.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2018-04-17T20:47:21+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0027s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2018-04-17T20:47:22+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\b4fa5c417f59c48be310aae3827c155221f87ecd.file.history.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\b4fa5c417f59c48be310aae3827c155221f87ecd.file.history.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2018-04-17T20:47:42+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0031s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2018-04-17T20:48:04+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0038s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2018-04-17T20:48:22+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0047s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2018-04-17T20:48:34+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0114s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2018-04-17T20:48:35+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0046s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-04-17T20:48:36+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010013s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0043s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2018-04-17T20:48:37+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/track
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0040s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2018-04-17T20:48:41+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0049s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `finish_time` is not null [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2018-04-17T20:49:28+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003273s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '2' [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2018-04-17T20:49:48+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0029s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '2' [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2018-04-17T20:50:12+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0036s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2018-04-17T20:50:45+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0064s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0054s ]
+
+[ 2018-04-17T20:50:45+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0035s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\3ad2736681855113520490f21f42924c6715919c.file.index.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\3ad2736681855113520490f21f42924c6715919c.file.index.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2018-04-17T20:51:07+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010472s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: action E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 18 行.
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' order by produce_time desc [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\5980e3f93528e7eab18942460273c1e74e33882e.file.order.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\5980e3f93528e7eab18942460273c1e74e33882e.file.order.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2018-04-17T20:51:32+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0031s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2018-04-17T20:51:33+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0075s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\a32d6f6c83637943881b24233948593bf913b3d4.file.work.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\a32d6f6c83637943881b24233948593bf913b3d4.file.work.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2018-04-17T20:51:33+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0031s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001912s ]
+
+[ 2018-04-17T20:52:04+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0100s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2018-04-17T20:52:04+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0045s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002845s ]
+
+[ 2018-04-17T20:52:05+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0033s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2018-04-17T20:52:05+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2018-04-17T20:52:10+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0041s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2018-04-17T20:52:10+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003551s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0030s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2018-04-17T20:52:57+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2018-04-17T20:52:58+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0045s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2018-04-17T20:53:04+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2018-04-17T20:53:05+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0069s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2018-04-17T20:53:27+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0031s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2018-04-17T20:53:27+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0085s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2018-04-17T20:53:54+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0072s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2018-04-17T20:54:00+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0046s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2018-04-17T20:54:00+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0037s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2018-04-17T20:54:08+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0031s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2018-04-17T21:12:36+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0034s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2018-04-17T21:12:36+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0048s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2018-04-17T21:12:37+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003314s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0030s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2018-04-17T21:12:51+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0059s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-04-17T21:12:56+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0033s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2018-04-17T21:12:56+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0064s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2018-04-17T21:12:57+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/work
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0033s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2018-04-17T21:12:58+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/testPush
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [8] Undefined index: timed E:\AppServ\www\tp_test\shop\Home\Controller\CollController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0059s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2018-04-17T21:13:02+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0044s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2018-04-17T21:15:59+08:00 ] ::1 /tp_test/shop/index.php/Home/Coll/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0053s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0063s ]
+
+[ 2018-04-17T21:15:59+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_Rec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0089s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0106s ]
+SQL: select * from waste_price [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for E:/AppServ/www/tp_test/shop/Runtime/Cache\d85f4b740df65538fe12a128e31c70b22e26453a.file.fast_Rec.html.php E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(E:/AppServ/www/tp_test/shop/Runtime/Cache\d85f4b740df65538fe12a128e31c70b22e26453a.file.fast_Rec.html.php): No such file or directory E:\AppServ\www\tp_test\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2018-04-17T21:16:03+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0066s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-04-17T21:16:05+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0033s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0038s ]
+SQL: select * from waste_price [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2018-04-17T21:16:05+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0030s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2018-04-17T21:16:07+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0036s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0060s ]
+SQL: select * from waste_price [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2018-04-17T21:16:08+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0076s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2018-04-17T21:16:16+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0033s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0060s ]
+SQL: select * from waste_price [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2018-04-17T21:16:16+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec_sec/index_rec/battery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0029s ]
+SQL: select * from waste_price where `type_eg` = 'battery' [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2018-04-17T21:16:19+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0068s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-04-17T21:16:20+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/track
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0036s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2018-04-17T21:16:23+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0033s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '2' [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-04-17T21:16:25+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/track
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0044s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2018-04-17T21:16:34+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/track
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0051s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2018-04-17T21:16:36+08:00 ] ::1 /tp_test/shop/index.php/Home/Order/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0046s ]
+SQL: select * from t_order where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '2' [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2018-04-17T21:16:39+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0033s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2018-04-17T21:17:12+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0031s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2018-04-17T21:17:57+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0075s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0029s ]
+SQL: select * from waste_price [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2018-04-17T21:18:23+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0079s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2018-04-17T21:18:25+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0095s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2018-04-17T21:18:27+08:00 ] ::1 /tp_test/shop/index.php/Home/Waste/waste_basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `waste_basket` [ RunTime:0.0035s ]
+SQL: select * from waste_basket where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '0' [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-04-17T21:21:23+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0054s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2018-04-17T21:22:04+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `collector` [ RunTime:0.0040s ]
+SQL: select * from collector where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' and `state` = '1' [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0028s ]
+SQL: select * from waste_price [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2018-04-17T21:22:06+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/fast_rec_sec/index_rec/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `waste_price` [ RunTime:0.0034s ]
+SQL: select * from waste_price where `type_eg` = 'paper' [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2018-04-17T22:10:14+08:00 ] ::1 /tp_test/shop/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+SQL: select * from user_info where `openid` = 'oyOLfwd29fHNKgADHEPPDNLC4R2Y' [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\tp_test\shop\Runtime\Cache\d1a77eccc1496a02ed9882de88b8073b2f585227.file.index.html.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+

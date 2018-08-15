@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+    <script type="text/javascript" src="{$smarty.const.JS_URL}/jquery-1.8.2.min.js"></script>
+    <title>选择您的地址</title>
+    <style type="text/css">
+        .next_operate{
+            cursor: pointer;
+        }
+        p{
+            padding:0;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+<div id="child_header">
+    <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+    <div class="current_location"><span>地址列表</span></div>
+    <div class="next_operate"><a href="{$smarty.const.__CONTROLLER__}/address_add"><span>新增地址</span></a></div>
+</div>
+    {foreach $info as $key => $value}
+        <div class="address_list">
+            <div class="list_left">
+                <p class="pw1">{$value.nickname}</p>
+                <p class="pw1">{$value.nick_tel}</p>
+                <a href="{$smarty.const.__CONTROLLER__}/address_list/id/{$value.address_id}"><p style="text-align: center;">删除</p></a>
+                <p class="pw2">{$value.province}{$value.city}{$value.country}{$value.spe_add}</p>
+                <a href="{$smarty.const.__CONTROLLER__}/address_edit/aid/{$value.address_id}" class="list_right"><img src="{$smarty.const.IMG_URL}/change_adr.png"></a>
+            </div>
+        </div>
+    {/foreach}
+</div>
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+    <a href="{$smarty.const.__MODULE__}/Index/fast_rec"><li>首页</li></a>
+    <a href="{$smarty.const.__MODULE__}/Waste/waste_basket"><li>废品筐</li></a>
+    <a href="{$smarty.const.__MODULE__}/Index/index"><li>我的</li></a>
+</ul>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+<title>详细查询</title>
+</head>
+<body class="body_color">
+<div class="mall_main">
+<div id="child_header">
+    <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+    <div class="current_location"><span>详细查询</span></div>
+</div>
+    {foreach $info as $key => $value}
+    <div class="support_list">
+        <div class="goods_support">
+            <a class="goods_img1"><img src="{$smarty.const.IMG_URL}/{$value.type_eg}.png"></a>
+            <p style="width: 100px;">{$value.type}</p>
+            <p style="width:100px;color: red;float: right">单价：{$value.price}元/kg</p>
+        </div>
+        <time style="float: right;">价格时间：{$value.price_time}</time>
+    </div>
+    {/foreach}
+</div>
+<!-- 提示 -->
+<div>
+    <h3 style="text-align: center;margin-top: 50px;">废品价格仅作为参考使用<br>具体事宜由回收员与您商议完成</h3>
+</div>
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+    <a href="{$smarty.const.__CONTROLLER__}/fast_rec"><li>首页</li></a>
+    <a href="{$smarty.const.__MODULE__}/Waste/waste_basket"><li>废品筐</li></a>
+    <a href="{$smarty.const.__CONTROLLER__}/index"><li>我的</li></a>
+</ul>
+</body>
+</html>

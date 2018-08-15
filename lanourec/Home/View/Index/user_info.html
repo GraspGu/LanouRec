@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <script type="text/javascript" src="{$smarty.const.JS_URL}/jquery-1.8.2.min.js"></script>
+    <title>个人管理中心</title>
+    <style type="text/css">
+        .next_operate{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="child_header">
+    <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+    <div class="current_location"><span>个人信息</span></div>
+    {if $info.info_state eq '0'}
+    <div class="next_operate"><span>保存</span></div>   
+    {/if}
+</div>
+    {if $info.info_state eq '0'}
+    <h3 style="text-align: center;margin: 10px 0;">请确保您的信息准确，提交之后不可更改</h3>
+    {/if}
+<div class="user_info">
+	<form action="{$smarty.const.__CONTROLLER__}/user_info" method="post">
+		<ul>
+	        <li><span>姓名</span><input class="info_input" type="text" value="{$info.username}" name="username"></li>
+	        <li><span>性别</span><input class="info_input" type="text" value="{$info.sex}" name="sex"></li>
+	        <li><span>手机号</span><input class="info_input" maxlength="11" type="text" value="{$info.telephone}" name="telephone"></li>
+	        <li><span>住址</span><input class="info_input" type="text" value="{$info.address}" name="address"></li>
+	    </ul>
+	</form>
+</div>
+<script>
+$('.next_operate').click(function(){
+    $('form').submit();
+})
+</script>
+</body>
+</html>
+

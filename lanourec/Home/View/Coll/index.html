@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link type="text/css" rel="stylesheet" href="{$smarty.const.CSS_URL}/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}/css_add.css">
+    <script type="text/javascript" src="{$smarty.const.JS_URL}/jquery-1.8.2.min.js"></script>
+    <title>管理中心</title>
+    <style type="text/css">
+        .next_operate{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="mall_main">
+    <div id="child_header">
+        <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+        <div class="current_location"><span>管理中心</span></div>
+    </div>
+    <div class="wx_wrap">
+            <div class="person_top">
+                <img class="top_bj" src="{$smarty.const.IMG_URL}/top_bj.jpg">
+                <div class="per_con">
+                    <div class="user_photo">
+                        <img src="{$smarty.const.IMG_URL}/user_photo.jpg">
+                    </div>
+                    <div class="name_right">
+                        <p class="p1">姓名：{$info.username}</p>
+                        <p>注册时间：{$info.produce_time}</p>
+                    </div>
+                </div>
+            </div>
+        <div class="my_menu">
+            <ul>
+                <li class="li_list"><a href="{$smarty.const.__CONTROLLER__}/order"><img src="{$smarty.const.IMG_URL}/user_icon1.png"> <span>订单查询</span></a></li> 
+                <li class="li_list"><a href="{$smarty.const.__CONTROLLER__}/history"><img src="{$smarty.const.IMG_URL}/user_icon2.png"> <span>历史订单</span></a></li>
+                <li class="li_list"><a href=""><img src="{$smarty.const.IMG_URL}/user_icon3.png"> <span style="color: #aaa">交易记录</span></a></li>
+            </ul>
+        </div>
+        <ul class="menu_list"> 
+            <li class="tiao"><a style="color: #aaa" href="">财富中心</a></li>
+            <li class="tiao"><a style="color: #aaa" href="">设置</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 底部导航条->暂定 -->
+<ul id="bottom_navbar">
+    <a href="{$smarty.const.__CONTROLLER__}/work"><li style="width: 50%;">开始工作</li></a>
+    <a href="{$smarty.const.__CONTROLLER__}/index"><li style="width: 50%;">我的</li></a>
+</ul>
+</body>
+</html>
